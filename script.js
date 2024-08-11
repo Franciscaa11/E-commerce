@@ -81,7 +81,7 @@ function displayCategoryProducts(category, products) {
     cardText.innerText = `$${product.price}`;
 
     const viewBtn = document.createElement("a");
-    viewBtn.href = `../pages/product.html?id=${product.id}`;
+    viewBtn.href = `./pages/product.html?id=${product.id}`;
     viewBtn.classList.add("btn", "btn-primary");
     viewBtn.innerText = "View Product";
 
