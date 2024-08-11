@@ -31,54 +31,9 @@ body {
 }
 
 .card-title {
-  font-size: 1.1rem; /* Adjust font size */
-}
-
-.card-text {
-  font-size: 0.9rem; /* Adjust font size for description */
-}
-
-/* .category-section {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 2rem;
-}
-
-.card-title {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.card-text {
   font-size: 1.1rem;
-  font-weight: bold;
 }
 
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+.card-text {
+  font-size: 0.9rem;
 }
-
-.btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-} */
-
-/* .checkout-container {
-  max-width: 960px;
-  margin: 50px auto;
-}
-
-.order-summary {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.form-group label {
-  font-weight: bold;
-}
-
-.btn-primary {
-  width: 100%;
-} */
