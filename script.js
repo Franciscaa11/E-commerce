@@ -26,7 +26,7 @@ function displayFeaturedProducts(products) {
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
                         <p class="card-text">$${product.price}</p>
-                        <a href="../pages/product.html?id=${product.id}" class="btn btn-primary">View Product</a>
+                        <a href="../Pages/product.html?id=${product.id}" class="btn btn-primary">View Product</a>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ function displayCategoryProducts(category, products) {
     cardText.innerText = `$${product.price}`;
 
     const viewBtn = document.createElement("a");
-    viewBtn.href = `./pages/product.html?id=${product.id}`;
+    viewBtn.href = `../Pages/product.html?id=${product.id}`;
     viewBtn.classList.add("btn", "btn-primary");
     viewBtn.innerText = "View Product";
 
